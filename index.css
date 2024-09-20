@@ -1,0 +1,58 @@
+body {
+    background-color: #36c74e;
+}
+
+header {
+    background-color: #ad0074;
+    text-align: center;
+    padding: 25px;
+}
+header h1 {
+    color: #fff;
+    font: 800 30px 'Roboto';
+}
+
+.passo {
+    padding: 10px;
+    margin: 25px;
+    background-color: #E10096;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px 0px #000;
+}
+
+.passo p {
+    padding: 5px;
+    margin: 5px;
+}
+.passo .btn-proximo {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.passo .btn-proximo:hover {
+    background: linear-gradient(180deg, #ffafe4 0%, #ff47c2 100%);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+#passo-0 img {
+    width: 500px;
+    
+}
+
+
+
+/*
+integrando com o JS
+*/
+.passo {
+    display: none; 
+}
+.passo.ativo {
+    display: block;
+}
