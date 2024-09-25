@@ -1,5 +1,5 @@
 body {
-    background-color: #36c74e;
+    background-color: #e7c2ff;
 }
 
 header {
@@ -48,12 +48,20 @@ main {
 
 }
 
-
 #passo-0 img {
     width: 450px;
     margin: 15px;
 }
-
+#passo-3 img {
+    width: 550px;
+    margin: 10px;
+}
+#passo-5 img{
+    width: 550px;
+}
+#passo-7 img {
+    width: 250px;
+}
 
 
 /*
